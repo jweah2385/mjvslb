@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Geologica', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to right, #ce1141 50%, #860038 50%);
+}
+
+.background {
+  align-items: center;
+  text-align: center;
+}
+
+.labron {
+  max-width: 100%;
+  height: 100%;
+  width: 25%;
+}
+
+.mj {
+  max-width: 100%;
+  height: auto;
+  width: 20%;
+}
+
+.photo {
+  height: 205px;
+}
+
+.white-bg {
+  width: 60vw;
+  background-color: #f1f6f9;
+  position: relative;
+  left: 20%;
+  border-radius: 10px;
+}
+
+select {
+  width: 17%;
+  height: 2rem;
+  text-align: center;
+  border-radius: 1.2rem;
+}
+
+.names {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  width: 60%;
+  text-align: center;
+  align-content: center;
+  position: relative;
+  left: 20%;
+}
+
+.stats {
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  border-radius: 0.5rem;
+}
+
+.large-num {
+  display: flex;
+  margin: auto;
+  gap: 5%;
+  width: 95%;
+}
+
+.inside-num {
+  height: 5.5rem;
+  width: 200px;
+  border: bold;
+  border-style: solid;
+  color: black;
+  border-radius: 0.5rem;
+  text-align: center;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  background-color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.2rem;
+}
+
+.minutes,
+.minPerGoal {
+  background-color: #f1f6f9;
+  height: 2.2rem;
+  padding-top: 0.5rem;
+}
+
+.min {
+  height: 2.2rem;
+  position: relative;
+  padding-top: 0.5rem;
+}
+
+.more-stats {
+  position: relative;
+  margin-top: 0.5rem;
+  border-style: solid;
+  border-color: black;
+  width: 20%;
+  align-items: center;
+  left: 40%;
+  height: 1.5rem;
+  border-radius: 8rem;
+}
+footer {
+  position: fixed;
+  background-color: #17408b;
+  display: flex;
+  width: 100vw;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  bottom: 0%;
+  left: 0;
+}
+
+.footer-content {
+  display: flex;
+}
+
+.more,
+.all-time,
+.season {
+  flex-grow: 1;
+  width: 15rem;
+  border-width: 0.7px;
+  border-left-style: solid;
+  border-color: black;
+  height: 4rem;
+  position: relative;
+}
+
+.more {
+  border-right-style: solid;
+}
+
+@media screen and (max-width: 768px) {
+  .white-bg {
+    width: 85%;
+    position: relative;
+    left: 8%;
+  }
+
+  .inside-num {
+    width: 100px;
+    height: 50px;
+  }
+
+  .footer-content {
+    width: 70%;
+  }
+
+  .labron {
+    max-width: 100%;
+    height: 100;
+    width: 35%;
+  }
+
+  .mj {
+    max-width: 100%;
+    height: 100%;
+    width: 30%;
+  }
+
+  .large-num {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  /*.large-num {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    position: relative;
+    right: 43%;
+  }*/
+  .large-num {
+    width: 90%;
+    position: relative;
+    left: 0;
+  }
+  .inside-num {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .more-stats {
+    width: 50%;
+    left: 25%;
+  }
+}
+
+@media (max-width: 380px) {
+  .large-num {
+    width: 90%;
+    position: relative;
+    left: 0;
+  }
+  .inside-num {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
