@@ -17,17 +17,20 @@ body {
 .labron {
   max-width: 100%;
   height: 100%;
-  width: 25%;
+  width: 28%;
 }
 
 .mj {
   max-width: 100%;
   height: auto;
-  width: 20%;
+  width: 21.2%;
+  position: relative;
+  left: 5%;
 }
 
 .photo {
   height: 205px;
+  margin-bottom: 5rem;
 }
 
 .white-bg {
@@ -36,6 +39,7 @@ body {
   position: relative;
   left: 20%;
   border-radius: 20px;
+  margin-top: -0.3rem;
 }
 
 select {
@@ -219,13 +223,14 @@ footer {
   .labron {
     max-width: 100%;
     height: 100;
-    width: 35%;
+    width: 55%;
   }
 
   .mj {
     max-width: 100%;
     height: 100%;
-    width: 30%;
+    width: 40%;
+    position: relative;
   }
 
   .large-num {
@@ -259,6 +264,18 @@ footer {
     width: 50%;
     left: 25%;
   }
+
+  .labron {
+    max-width: 100%;
+    height: 120%;
+    width: 53%;
+  }
+
+  .mj {
+    max-width: 100%;
+    height: 100%;
+    width: 41%;
+  }
 }
 
 @media (max-width: 380px) {
@@ -270,5 +287,17 @@ footer {
   .inside-num {
     width: 100%;
     margin-bottom: 10px;
+  }
+
+  .labron {
+    max-width: 100%;
+    height: 120%;
+    width: 50%;
+  }
+
+  .mj {
+    max-width: 100%;
+    height: 100%;
+    width: 40%;
   }
 }
